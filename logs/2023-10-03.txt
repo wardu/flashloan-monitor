@@ -1,0 +1,5 @@
+achieved:
+- got websocket listening to aave 'FlashLoan' contract events in Node.js
+
+thoughts:
+Not all flashloan data is shown in the event logs, so we need to get the data from etherscan api?
