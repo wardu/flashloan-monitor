@@ -4,10 +4,15 @@
   "description": "A web app that displays flashloans as they happen on the blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm index.ts"
   },
   "author": "Warren Dubery",
   "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
   "dependencies": {
     "dotenv": "^16.3.1",
     "ethers": "^6.8.0"
